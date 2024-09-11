@@ -11,10 +11,10 @@ app.get('/api',(req, res, next) => {
   res.send(`your favorite color is ${favColor}`)
 })
 
-app.get('/greetings', (req, res, next) => {
+app.get('/', (req, res, next) => {
   res.send('<h1>Hello World</h1>')
 })
-app.get('/farewell', (req, res, next) => {
+app.get('/', (req, res, next) => {
   res.send('<h1>Goodbye World</h1>')
 })
 
