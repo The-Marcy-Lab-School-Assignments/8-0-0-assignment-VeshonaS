@@ -56,8 +56,8 @@ You got this!
   - [x] Two controllers send an HTML response (either raw HTML or an HTML file)
   - [x] Two controllers send a data response
   - [x] One of the controllers uses query parameters in some way (`req.query.parameterName`)
-- [ ] There are 4 GET endpoints
-  - [ ] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
+- [x] There are 4 GET endpoints
+  - [] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
   - [ ] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
 - [x] The `app` listens on an available port (I recommend `8080`)
 
