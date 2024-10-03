@@ -2,8 +2,7 @@
 Good job on the main steps! However, some steps were missed or done incorrect 
 
 1: The server here was made in the root directory, when you was expected to make a server directory and make it in there 
-
-2: Each controller route should be unique. You have two "/" routes and two "/api" routes. The routes should *begin* with these, however, they also need to be unique in order to differentiate them. For example, you have a controller that mentions a favorite color. A route I would make for this would be "/api/color". Now this route is unique to this controller. 
+2: Make sure to deploy the site and provide the link 
 
 
 # My First Express Server
@@ -57,8 +56,8 @@ You got this!
   - [x] Two controllers send a data response
   - [x] One of the controllers uses query parameters in some way (`req.query.parameterName`)
 - [x] There are 4 GET endpoints
-  - [] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
-  - [ ] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
+  - [x] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
+  - [x] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
 - [x] The `app` listens on an available port (I recommend `8080`)
 
 **Deployment Technical Requirements**
